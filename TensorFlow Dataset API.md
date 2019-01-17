@@ -171,7 +171,7 @@ sess.run(iterator.initializer, feed_dict={features_placeholder: features,labels_
 
 ### reference
 ---
-- [==Dataset API introduction with Chinese==](https://zhuanlan.zhihu.com/p/30751039)
-- [==tensorflow official guide==](https://www.tensorflow.org/guide/datasets)
-- [==module: tf.data==](https://www.tensorflow.org/api_docs/python/tf/data)
-- [==Introduction to TensorFlow Datasets and Estimators==](https://developers.googleblog.com/2017/09/introducing-tensorflow-datasets.html)
+- [**Dataset API introduction with Chinese**](https://zhuanlan.zhihu.com/p/30751039)
+- [**tensorflow official guide**](https://www.tensorflow.org/guide/datasets)
+- [**module: tf.data**](https://www.tensorflow.org/api_docs/python/tf/data)
+- [**Introduction to TensorFlow Datasets and Estimators**](https://developers.googleblog.com/2017/09/introducing-tensorflow-datasets.html)
