@@ -1,3 +1,6 @@
+import pandas as pd 
+import matplotlib.pyplot as plt
+
 def plot_tensorboard_csv(csv_file={}, smooth_weight=0, title="tensorboard-plot", ylabel="loss", steps_or_runtime='steps', is_save=0):
     fig = plt.figure()
     plt.title(title)
