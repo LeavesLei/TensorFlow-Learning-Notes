@@ -5,8 +5,8 @@ some tensorflow notes by Leaves
 - [Dataset API](https://github.com/LeavesLei/TensorFlow-Learning-Notes/blob/master/TensorFlow%20Dataset%20API.md)
 
 ### How can we plot .csv file downloaded form TensorBoard
-[]()
-#### patameter
+[plot_tensorboard_csv.py](https://github.com/LeavesLei/TensorFlow-Learning-Notes/blob/master/plot_tensorboard_csv.py)
+#### parameters
 - `csv_file`: `csv_file` is a dictionary which keys contain the type of csv file like test or train and values contain the path of csv file. Here is a example: `csv_file={"test": "C:/Users/Leaves/Desktop/run_test-tag-loss.csv", "train": "C:/Users/Leaves/Desktop/run_train-tag-loss.csv"}`
 - `smooth_weight`: `smooth_weight` can make the curve more beatiful. default 0.
 - `title`
